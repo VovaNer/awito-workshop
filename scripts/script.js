@@ -31,7 +31,7 @@ document.addEventListener('keydown', event => {
 
 // Клик по элементам каталога открывает модальное окно
 catalog.addEventListener('click', event => {
-    if(event.target.closest('.catalog')) {
+    if(event.target.closest('.card')) {
         modal__item.classList.remove('hide');
     }
 });
